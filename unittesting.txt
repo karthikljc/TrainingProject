@@ -1,0 +1,28 @@
+
+UNIT TESTING:
+
+1.Unit testing, a testing technique using which individual modules are tested. 
+2.The main aim is to isolate each unit of the system to identify, analyze and fix the defects.
+3.Unit Testing - Advantages: 
+		* It reduces Defects in the Newly developed features or reduces bugs when changing the existing functionality.
+		* Reduces Cost of Testing as defects are captured in very early phase. 
+		* It will improves design and allows better refactoring of code. 
+		* Unit Tests, when integrated with build gives the quality of the build as well.
+
+
+Unit Tesing life cycle: 
+							1.check in code into the repository
+							2.check out code from the repository
+							3.make changes
+							4.Execute Unit tests
+							5.Fix defects and re-execute unit tests
+							6.code review
+				
+The following steps are keeps on reapeting.		
+
+Unit testing Techniques:	
+			
+				1.Block Box Testing - Using which the user interfaces inputs and outputs are tested.
+				2.White Box Testing - Used to test each one of those functions and behaviour is tested.
+				3.Gray Box Teting - Used to execute tests risks and assessment methods.
+							
