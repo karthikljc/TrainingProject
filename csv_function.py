@@ -4,11 +4,11 @@
 import csv
 import json
 
-def parser(obj):
+def parser():
 	with open('data.json') as mfile:
 		data = mfile.read()
 		obj = json.loads(data)
-		return obj
+		#return obj
 
 	with open('output.csv','w') as output:
 		writer = csv.writer(output)
