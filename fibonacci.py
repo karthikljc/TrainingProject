@@ -4,7 +4,7 @@
 def fiblist(n):
     #creates a list of Fibonacci numbers up to the n-th generation 
     fib = [0,1]
-    print("fib series")
+    print("fib series 12345")
     for i in range(1,n):
         fib += [fib[-1]+fib[-2]]
     return fib
