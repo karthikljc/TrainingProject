@@ -3,8 +3,8 @@ import cubetriangle
 
 class CubeTest(unittest.TestCase):
 	def test_cube(self):
-		k=cubetriangle.cube(2)
-		self.assertEqual(k, 8)
+		k=cubetriangle.cube(5)
+		self.assertEqual(k, 125)
 	def test_triangle(self):
 		k=cubetriangle.triangle(6, 3)
 		self.assertEqual(k, 9)
