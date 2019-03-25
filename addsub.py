@@ -22,6 +22,7 @@ def multiply(x, y):
 
 print(add(5,2))
 print(subtract(5,2))
+print(multiply(2,3))
 
 	
 
